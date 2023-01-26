@@ -86,7 +86,7 @@ public class TaskManager {
             String row = scan.next();
             if (row.equalsIgnoreCase("back")) {
                 break;
-            } else  {
+            }
                 try {
                     parse = Integer.parseInt(row);
                     if (tab.length == 0 ){
@@ -106,7 +106,7 @@ public class TaskManager {
                     System.out.println("Enter number between 1 and " + tab.length);
                 }
             }
-        }
+
 
     }
 
