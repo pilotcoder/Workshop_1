@@ -7,7 +7,7 @@ import java.nio.file.Paths;
 import java.util.*;
 
 public class TaskManager {
-    static final String FILE_NAME = "tasks.csv";
+    static final String FILE_NAME = "C:/tasks.csv";
     static final String[] OPTIONS = {"add", "remove", "list", "exit"};
     static String[][] temp;
 
@@ -86,7 +86,7 @@ public class TaskManager {
             String row = scan.next();
             if (row.equalsIgnoreCase("back")) {
                 break;
-            } else  {
+            }
                 try {
                     parse = Integer.parseInt(row);
                     if (tab.length == 0 ){
@@ -106,7 +106,7 @@ public class TaskManager {
                     System.out.println("Enter number between 1 and " + tab.length);
                 }
             }
-        }
+
 
     }
 
